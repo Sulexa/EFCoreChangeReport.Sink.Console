@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <PackageId>EFCoreChangeReport.Sink.Console</PackageId>
+    <Authors>Sulexa</Authors>
+    <Company>Sulexa</Company>
+    <Description>A sink for EFCoreChangeReport to write to the console all the reports</Description>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/Sulexa/EFCoreChangeReport.Sink.Console</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Sulexa/EFCoreChangeReport.Sink.Console</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EFCoreChangeReport" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
